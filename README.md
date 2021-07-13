@@ -1,6 +1,6 @@
-# Documentation
+# Documentation TFOD (Tensorflow Object Detection)
 ## Notes for creators:
- - Done with Tensorflow Object Recognition API
+ - Done with TFOD API
  - Leveraged Camera (Labelling and identifying the objects)
  - Training (Static & Dynamic-real time- Detection) is done via labelling
  - Data: Image ... Answers: Annotations/Labels ... Trained the ML model with these
