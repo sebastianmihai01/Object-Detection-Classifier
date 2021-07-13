@@ -9,8 +9,16 @@
  - Perform tuning (solving wrongfully detected objects)
  - Training on Google Cloud (saves RAM)
  - TBT: Rasperry PI integration (coming in September)
+ - CudaNN (and CUDA) gives GPU acceleration when doing model training (slower on CPU)
+ - Create enviroment (isolate libs and dependencies) via 'python -m venv tfod' (create a notebook in Jupyter - run with 'jupyter notebook' cmd)
 
-#
+## Installation
+ - Make sure the GPU, VS version, TF version, cuDNN & CUDA versions are matching\
+ as in: https://www.tensorflow.org/install/source_windows
+ - python -m pip install --upgrade pip
+ - pip install ipykernel (associate the environement with our jupyter notebook)
+ - python -m ipykernel install --user --name=tfodj (install our virtual environment into jupyter)
+
 ## Algorithms & Approaches:
 - MobileNet Convolutional NN model used\
 (read more on: https://medium.com/analytics-vidhya/image-classification-with-mobilenet-cc6fbb2cd470)
