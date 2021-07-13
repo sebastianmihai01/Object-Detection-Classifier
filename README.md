@@ -25,6 +25,12 @@
 (read more on: https://medium.com/analytics-vidhya/image-classification-with-mobilenet-cc6fbb2cd470)
 - Depthwise Separable Convolutional Layering
 
+## Steps
+1) Images Collecting and Labelling (with LabelImg library) -> Collecting images with our webcam/ preprocessed videos
+2) LabelImg -> can put squares and labels images manually
+3) When labelling: Take (~20)pictures from different angles, lighting & rotation and as tight as possible on the object - the more **instances**, the better
+   e.g. **side, front, back**, so that the model detects it easier
+
 #
  <img  width="80%" height="80%" align = "center" src ="https://miro.medium.com/max/1384/1*7R068tzqqK-1edu4hbAVZQ.png">
  (source: https://medium.com/analytics-vidhya/image-classification-with-mobilenet-cc6fbb2cd470)
