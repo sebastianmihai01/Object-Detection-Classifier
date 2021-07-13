@@ -1,2 +1,5 @@
-# Find catto and doggo in images
-> Done with Convolutional Neuronal Networks and Reinforcement Learning
+___
+> Done with Convolutional Neuronal Networks and Reinforcement Learning\
+___
+> Classifier for Feature Detection (idk what yet)\
+___
