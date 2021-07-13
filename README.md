@@ -1,9 +1,14 @@
 # Documentation
-## Steps:
+## Notes for creators:
  - Done with Tensorflow Object Recognition API
  - Leveraged Camera (Labelling and identifying the objects)
  - Training (Static & Dynamic-real time- Detection) is done via labelling
  - Data: Image ... Answers: Annotations/Labels ... Trained the ML model with these
+ - Freeze (save&load) model
+ - Export and Deploy (Reusable models) / Convert into 'tf' format
+ - Perform tuning (solving wrongfully detected objects)
+ - Training on Google Cloud (saves RAM)
+ - TBT: Rasperry PI integration (coming in September)
 
 #
 ## Algorithms & Approaches:
