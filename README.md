@@ -1,5 +1,6 @@
-# Documentation TFOD (Tensorflow Object Detection)
-## Notes for creators:
+# (Under development)
+
+## Documentation TFOD (Tensorflow Object Detection) -- Notes for creators:
  - Done with TFOD API
  - Leveraged Camera (Labelling and identifying the objects)
  - Training (Static & Dynamic-real time- Detection) is done via labelling
