@@ -1,7 +1,10 @@
 import os
 
+# Compression for Google Colab
 LABELIMG_PATH = os.path.join('Tensorflow', 'labelimg')
+# Compression for Google Colab
 TRAIN_PATH = os.path.join('Tensorflow', 'workspace', 'images', 'train')
+# Compression for Google Colab
 TEST_PATH = os.path.join('Tensorflow', 'workspace', 'images', 'test')
 ARCHIVE_PATH = os.path.join('Tensorflow', 'workspace', 'images', 'archive.tar.gz')
 path = "C:\\Users\\Sebi\\Desktop\\AI Projects\\Object-Detection-Classifier\\Tensorflow\\labelimg"
@@ -45,5 +48,15 @@ def __main__():
     print("7")
     execute(cmd6)
     print("8")
+    print("-----------------------------------------------------------------------------------------------------------")
+    print("Please choose: Open Dir -> Navigate to Classes Directory (with sample images) \n")
+    print("Make sure the items you want to select appear on the lower-right corner of the application \n")
+    print("Please fit the image that you want to label perfectly, don't let any foreign object within the frame\n")
+    print("Hit CTRL+S to save \n")
+    print("The new file will have the exact name as the image, but with a .xml extension, where "
+          "the bdnbox shows the coordinates of the label")
+    print("-----------------------------------------------------------------------------------------------------------")
+
+
 
 __main__()
