@@ -1,13 +1,13 @@
 import os
 
 # Compression for Google Colab
-LABELIMG_PATH = os.path.join('Tensorflow', 'labelimg')
+LABELIMG_PATH = os.path.join('../Tensorflow', 'labelimg')
 # Compression for Google Colab
-TRAIN_PATH = os.path.join('Tensorflow', 'workspace', 'images', 'train')
+TRAIN_PATH = os.path.join('../Tensorflow', 'workspace', 'images', 'train')
 # Compression for Google Colab
-TEST_PATH = os.path.join('Tensorflow', 'workspace', 'images', 'test')
-ARCHIVE_PATH = os.path.join('Tensorflow', 'workspace', 'images', 'archive.tar.gz')
-path = "C:\\Users\\Sebi\\Desktop\\AI Projects\\Object-Detection-Classifier\\Tensorflow\\labelimg"
+TEST_PATH = os.path.join('../Tensorflow', 'workspace', 'images', 'test')
+ARCHIVE_PATH = os.path.join('../Tensorflow', 'workspace', 'images', 'archive.tar.gz')
+path = "/Tensorflow/labelimg"
 cd2 = "cd C:\\Users\\Sebi\\Desktop\\AI Projects\\Object-Detection-Classifier\\Tensorflow"
 
 cmd1 = "pip install --upgrade pyqt5 lxml"

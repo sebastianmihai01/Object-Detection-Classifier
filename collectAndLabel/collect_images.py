@@ -14,7 +14,7 @@ number_imgs = 5  # 5 images for each label => 5x4= 20 images
 # Setup folder, paths
 # => creates just the path (not a folder) "Tensorflow\\workspace\\images\\collectedimages"
 curr = os.getcwd() # dynamic file path
-IMAGES_PATH = os.path.join('Tensorflow', 'workspace', 'images', 'collectedimages')
+IMAGES_PATH = os.path.join('../Tensorflow', 'workspace', 'images', 'collectedimages')
 print("Current os: " + os.name)
 
 # Create the folder directory given the path above
