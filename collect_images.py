@@ -2,7 +2,7 @@ import cv2  # computer vision
 import uuid  # name our images uniquely
 import os  # for paths
 import time
-
+import image_labelling as il
 """
 Multi-Class object detection model -> it will be able to detect multiple gestures
 """
@@ -14,11 +14,8 @@ number_imgs = 5  # 5 images for each label => 5x4= 20 images
 # Setup folder, paths
 # => creates just the path (not a folder) "Tensorflow\\workspace\\images\\collectedimages"
 curr = os.getcwd() # dynamic file path
-IMAGES_PATH = os.path.join(curr, 'Tensorflow', 'workspace', 'images', 'collectedimages')
+IMAGES_PATH = os.path.join('Tensorflow', 'workspace', 'images', 'collectedimages')
 print("Current os: " + os.name)
-
-# relative path gives an error on python64 fro some reason
-IMAGES_PATH = "C:\\Users\\Sebi\\Desktop\\AI Projects\\Object-Detection-Classifier"
 
 # Create the folder directory given the path above
 if not os.path.exists(IMAGES_PATH): # If not existing
@@ -30,7 +27,8 @@ if not os.path.exists(IMAGES_PATH): # If not existing
     # If OS is windows
     # !mkdir -p {IMAGES_PATH}
     if os.name == 'nt':
-        os.mkdir(IMAGES_PATH)
+        il.execute("mkdir "+IMAGES_PATH+"")
+        print("success")
 
 # Create a folder for reach class (label) at the end of the PATH
 for label in labels:
