@@ -13,6 +13,14 @@
  - CudaNN (and CUDA) gives GPU acceleration when doing model training (slower on CPU)
  - Create enviroment (isolate libs and dependencies) via 'python -m venv tfod' (create a notebook in Jupyter - run with 'jupyter notebook' cmd)
 
+## Technologies
+ - Version	tensorflow_gpu - 2.5.0 
+ - Python version -	3.6-3.9	
+ - Compiler - 	MSVC 2019	
+ - Build tools - Bazel 3.7.2	
+ - cuDNN - 	8.1
+	- CUDA - 11.2
+
 ## Installation
  - Make sure the GPU, VS version, TF version, cuDNN & CUDA versions are matching\
  as in: https://www.tensorflow.org/install/source_windows
