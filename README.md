@@ -1,5 +1,7 @@
 # (Under development)
 
+## Done with pre-trained Tensorflow FROZEN models
+
 ## Documentation TFOD (Tensorflow Object Detection) -- Notes for creators:
  - Done with TFOD API
  - Leveraged Camera (Labelling and identifying the objects)
