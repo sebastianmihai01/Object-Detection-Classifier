@@ -4,6 +4,7 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Tensorflow/labelimg" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Tensorflow/labelimg/labelImg" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TensorflowAPI/Tensorflow/labelimg" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/labelImg" vcs="Git" />
   </component>
 </project>

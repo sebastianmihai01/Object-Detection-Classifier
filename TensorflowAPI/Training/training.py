@@ -12,8 +12,7 @@ from object_detection.utils import visualization_utils as viz_utils
 from object_detection.builders import model_builder
 from object_detection.protos import pipeline_pb2
 from google.protobuf import text_format
-import collectAndLabel.image_labelling as il
-import object_detection  # Object detection API from tensorflow 2
+import TensorflowAPI.collectAndLabel.image_labelling as il
 
 # Our folder
 CUSTOM_MODEL_NAME = 'my_ssd_mobnet'
@@ -67,7 +66,7 @@ for path in paths.values():
         if os.name == 'nt':
             il.execute("mkdir " + path)
 
-# Download TensorFlow2 Object Detection API:
+# Download TensorFlow2 Object Detection ReusableAPI:
 
 # https://www.tensorflow.org/install/source_windows
 if os.name=='nt':
@@ -92,7 +91,7 @@ if os.name=='nt':
     os.environ['PATH'] += os.pathsep + os.path.abspath(os.path.join(paths['PROTOC_PATH'], 'bin'))
 
 
-# Install TF API
+# Install TF ReusableAPI
 il.execute("cd Tensorflow/models/research && protoc object_detection/protos/*.proto --python_out=. && copy object_detection\\packages\\tf2\\setup.py setup.py && python setup.py build && python setup.py install")
 il.execute("cd Tensorflow/models/research/slim && pip install -e .")
 
@@ -242,7 +241,7 @@ with tf.io.gfile.GFile(files['PIPELINE_CONFIG'], "wb") as f:
 #       3) Set parameters (2000 steps prototyping)
 
 
-# !!! The environemnt has to be activated (tfod - shown at the beginning), otherwise the API is not activated
+# !!! The environemnt has to be activated (tfod - shown at the beginning), otherwise the ReusableAPI is not activated
 
 TRAINING_SCRIPT = os.path.join(paths['APIMODEL_PATH'], 'research', 'object_detection', 'model_main_tf2.py')
 command = "python {} --model_dir={} --pipeline_config_path={} --num_train_steps=2000".format(TRAINING_SCRIPT,
