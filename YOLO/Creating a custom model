@@ -1,0 +1,9 @@
+How to detect custom objects
+
+
+
+To detect custom objects, you would need to create your custom YOLO model, instead of using the pretrained model.
+To create a custom object detector, two steps are necessary:
+
+1. Create a dataset containing images of the objects you want to detect
+2. Train the YOLO model on that image dataset

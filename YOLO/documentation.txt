@@ -1,0 +1,29 @@
+Source: https://pysource.com/2019/06/27/yolo-object-detection-using-opencv-with-python/#
+
+
+
+With yolo we can detect objects at a relatively high speed. With a GPU we would be able to process over 45 frames/second
+while with a CPU around a frame per second.
+
+3 most used and known frameworks compatible with YOLO and the advantages and disadvantages of each one:
+
+
+
+1) Darknet : it’s the framework built from the developer of YOLO and made specifically for yolo.
+
+Advantage: it’s fast, it can work with GPU or CPU
+Disadvantage: it only works with Linux os
+______________________________________________________
+
+2) Darkflow: it’s the adaptation of darknet to Tensorflow (another deep learning framework).
+
+Advantage: it’s fast, it can work with GPU or CPU, and it’s also compatible with Linux, Windows and Mac.
+Disadvantage: the installation it’s really complex, especially on windows
+______________________________________________________
+
+3) Opencv: also opencv has a deep learning framework that works with YOLO. Just make sure you have opencv 3.4.2 at least.
+
+Advantage: it works without needing to install anything except opencv.
+Disadvantage: it only works with CPU, so you can’t get really high speed to process videos in real time.
+______________________________________________________
+
