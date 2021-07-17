@@ -1,4 +1,9 @@
-# (Under development)
+# FOUR different implementations:
+
+1) Tensorflow TFOD pre-trained frozen modlees
+2) Coco + Plain OpenCV2
+3) Darknet and YOLO 
+4) Tracker
 
 ## Done with pre-trained Tensorflow FROZEN models
 
