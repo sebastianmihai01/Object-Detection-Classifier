@@ -1,4 +1,4 @@
-# FOUR different implementations:
+# Four different implementations:
 
 1) Tensorflow TFOD pre-trained frozen models
 2) Coco + Plain OpenCV2
